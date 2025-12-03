@@ -2,9 +2,9 @@
 
 **Demo**
 
-![][image1]  
-![][image2]  
-**![][image3]**
+![Alt text](./1.png)
+![Alt text](./2.png)
+![Alt text](./3.png)
 
 **Problem Breakdown & Computational Thinking**
 
