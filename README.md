@@ -122,7 +122,7 @@ START
 
 Test Cases Performed:
 
-Test 1 \- Minimum Edge Case (Number: 1):\*\*  
+Test 1 \- Minimum Edge Case (Number: 1):
 \- I tested with the smallest possible number to ensure the algorithm handles the lower boundary correctly  
 \- Result: The algorithm successfully found the number 1 in 7 steps  
 \- The search narrowed down properly: 50 → 25 → 13 → 7 → 4 → 2 → 1
@@ -143,11 +143,11 @@ Test 4 \- Random Middle-Range Number (Number: 75):
 \- The algorithm efficiently narrowed the range
 
 Summary of Results:  
-\- ✅ All numbers from 1 to 100 can be found within the theoretical maximum of 7 guesses  
-\- ✅ The algorithm correctly narrows the search range with each iteration  
-\- ✅ Edge cases at both boundaries (1 and 100\) are handled properly  
-\- ✅ The visual display accurately reflects the current state of the search  
-\- ✅ The step counter increments correctly with each guess
+\- All numbers from 1 to 100 can be found within the theoretical maximum of 7 guesses  
+\- The algorithm correctly narrows the search range with each iteration  
+\- Edge cases at both boundaries (1 and 100\) are handled properly  
+\- The visual display accurately reflects the current state of the search  
+\- he step counter increments correctly with each guess
 
 **Hugging Face Link:**  
 \[Your deployed app link will go here after deployment\]
