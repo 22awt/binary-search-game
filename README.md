@@ -34,7 +34,7 @@ I chose to implement binary search for this project because it is one of the mos
 **Algorithm Design**  
 \- Input: User thinks of a number and provides feedback through three buttons (Higher, Lower, Correct)  
 \- Processing: The program uses binary search logic to calculate the midpoint, updates boundaries based on feedback, and validates that the range remains logical  
-\- Output: The GUI displays the current guess, shows a visual representation of eliminated numbers, updates the search range, and counts the number of steps taken  
+\- Output: The GUI displays the current guess, shows a visual representation of eliminated numbers, updates the search range, shows success message (if found) and counts the number of steps taken  
 \- \*\*AI was used for the GUI, specifically Claude in order to help with the HTML portion of the code to make the game more visually appealing
 
 **Flowchart**
