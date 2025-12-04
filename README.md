@@ -157,8 +157,8 @@ Test Cases Performed:
 
 **Test 4 - Typical Case (Number: 63)**
 - Chose 63 to test a number requiring multiple iterations
-- Result: Found in 3 steps
-- Search sequence: 50 → 75 → 63
+- Result: Found in 6 steps
+- Search sequence: 50 → 75 → 62 → 68 → 65 → 63
 - Shows efficient range narrowing in typical usage
 ![Test 4](Test%204.PNG)
 
