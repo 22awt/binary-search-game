@@ -127,7 +127,7 @@ Test Cases Performed:
 - Result: The algorithm successfully found 1 in 7 steps
 - Search sequence: 50 → 25 → 13 → 7 → 4 → 2 → 1
 - Verified range narrowing works correctly at the minimum boundary
-![Test 1](Test%201.png)
+![Test 1](Test%201.PNG)
 
 **Test 2 - Maximum Edge Case (Number: 100)**
 - Tested with the largest possible number to verify upper boundary handling
