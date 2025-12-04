@@ -195,7 +195,7 @@ Test Cases Performed:
 **Conclusion**: All test cases passed without errors. The application successfully demonstrates binary search with accurate results and robust error handling.
 
 **Hugging Face Link:**  
-\[Your deployed app link will go here after deployment\]
+https://huggingface.co/spaces/22awt/binary-search-game 
 
 \- Name: Andrew Tsotsos  
 \- Student Number: 20359125  
