@@ -43,7 +43,6 @@ I chose to implement binary search for this project because it is one of the mos
     - `guess`: Integer (current guess calculated as midpoint)
     - `steps`: Integer (counter tracking number of guesses made)
     - `active`: Boolean (game state - True when playing, False when finished)
-  - Data Structure: Simple integer variables (no arrays or lists required)
   
 \- **Output**: The GUI displays the current guess, shows a visual representation of eliminated numbers, updates the search range, shows success message (if found) and counts the number of steps taken
   - Output Type: Dynamically generated HTML strings for visual display
