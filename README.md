@@ -24,7 +24,7 @@ I chose to implement binary search for this project because it is one of the mos
 **Pattern Recognition**  
 \- The algorithm always guesses the middle value of the current remaining range  
 \- Each guess consistently eliminates exactly half of the remaining possibilities  
-\- The range shrinks in a predictable pattern: 100 numbers, then 50, then 25, then 13, and so on  
+\- The range shrinks in a predictable pattern: 100 numbers, then 50, then 25, then 12, and so on  
 \- The same comparison process is repeated with each iteration until success
 
 **Abstraction**  
