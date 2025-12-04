@@ -190,7 +190,7 @@ Test Cases Performed:
 - Binary search logic properly eliminates half the search space each iteration
 - User interface remains stable and error-free across all test scenarios
 - Game reset functionality works perfectly for consecutive plays
-- All button interactions behave as expected, including post-game states
+- All button interactions behave as expected, including post-game stats
 
 **Conclusion**: All test cases passed without errors. The application successfully demonstrates binary search with accurate results and robust error handling.
 
