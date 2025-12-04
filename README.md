@@ -122,32 +122,46 @@ START
 
 Test Cases Performed:
 
-Test 1 \- Minimum Edge Case (Number: 1):
-\- I tested with the smallest possible number to ensure the algorithm handles the lower boundary correctly  
-\- Result: The algorithm successfully found the number 1 in 7 steps  
-\- The search narrowed down properly: 50 → 25 → 13 → 7 → 4 → 2 → 1
+**Test 1 - Minimum Edge Case (Number: 1)**
+- Tested with the smallest possible number to ensure the algorithm handles the lower boundary correctly
+- Result: The algorithm successfully found 1 in 7 steps
+- Search sequence: 50 → 25 → 13 → 7 → 4 → 2 → 1
+- Verified range narrowing works correctly at the minimum boundary
 
-Test 2 \- Maximum Edge Case (Number: 100):  
-\- I tested with the largest possible number to verify upper boundary handling  
-\- Result: The algorithm found 100 in 7 steps as expected  
-\- The range expanded correctly toward the maximum value
+**Test 2 - Maximum Edge Case (Number: 100)**
+- Tested with the largest possible number to verify upper boundary handling
+- Result: The algorithm found 100 in 7 steps as expected
+- The range expanded correctly toward the maximum value
+- Confirmed no overflow or boundary errors
 
-Test 3 \- Middle Value (Number: 50):  
-\- I tested the exact middle of the range as a best-case scenario  
-\- Result: Found immediately in just 1 step since 50 is the first guess  
-\- This demonstrates the algorithm starts in the optimal position
+**Test 3 - Best Case (Number: 50)**
+- Tested the exact middle of the range as the optimal scenario
+- Result: Found immediately in 1 step
+- Demonstrates the algorithm's first guess is strategically positioned at the midpoint
 
-Test 4 \- Random Middle-Range Number (Number: 75):  
-\- I chose 75 to test a typical case that requires several iterations  
-\- Result: Found in 3 steps through the sequence 50 → 75 → 75  
-\- The algorithm efficiently narrowed the range
+**Test 4 - Typical Case (Number: 63)**
+- Chose 63 to test a number requiring multiple iterations
+- Result: Found in 3 steps
+- Search sequence: 50 → 75 → 63
+- Shows efficient range narrowing in typical usage
 
-Summary of Results:  
-\- All numbers from 1 to 100 can be found within the theoretical maximum of 7 guesses  
-\- The algorithm correctly narrows the search range with each iteration  
-\- Edge cases at both boundaries (1 and 100\) are handled properly  
-\- The visual display accurately reflects the current state of the search  
-\- he step counter increments correctly with each guess
+**Test 5 - New Game Functionality**
+- Tested the reset button after completing multiple games
+- Result: All variables reset correctly (range 1-100, guess 50, step 1)
+- Verified no data persists between games
+
+**Test 6 - Post-Game Button Clicks**
+- Tested clicking Higher/Lower/Correct buttons after the game ends
+- Result: No errors occur, display remains stable
+- Game state properly prevents further move
+
+- **Key Findings**:
+- ✅ Algorithm correctly handles all edge cases (minimum, maximum, and middle values)
+- ✅ Maximum steps never exceeded 7 for any number in range 1-100
+- ✅ Binary search logic properly eliminates half the search space each iteration
+- ✅ User interface remains stable and error-free across all test scenarios
+- ✅ Game reset functionality works perfectly for consecutive plays
+- ✅ All button interactions behave as expected, including post-game states
 
 **Hugging Face Link:**  
 \[Your deployed app link will go here after deployment\]
