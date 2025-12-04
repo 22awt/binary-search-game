@@ -45,7 +45,7 @@ I chose to implement binary search for this project because it is one of the mos
     - `active`: Boolean (game state - True when playing, False when finished)
   
 \- **Output**: The GUI displays the current guess, shows a visual representation of eliminated numbers, updates the search range, shows success message (if found) and counts the number of steps taken
-  - Output Type: Dynamically generated HTML strings for visual display
+  - Output Type: Dynamically generated HTML strings for visual display using Gradio
   - Display Components: Guess number, colored number grid (1-100), statistics panel, success screen
   
 \- **Note**: AI (Claude) was used to assist with the GUI design, specifically the HTML portions and Gradio interface implementation to create a visually appealing and user-friendly interface. All algorithm logic and implementation decisions were made independently
