@@ -155,13 +155,14 @@ Test Cases Performed:
 - Result: No errors occur, display remains stable
 - Game state properly prevents further move
 
+
 - **Key Findings**:
-- ✅ Algorithm correctly handles all edge cases (minimum, maximum, and middle values)
-- ✅ Maximum steps never exceeded 7 for any number in range 1-100
-- ✅ Binary search logic properly eliminates half the search space each iteration
-- ✅ User interface remains stable and error-free across all test scenarios
-- ✅ Game reset functionality works perfectly for consecutive plays
-- ✅ All button interactions behave as expected, including post-game states
+- Algorithm correctly handles all edge cases (minimum, maximum, and middle values)
+- Maximum steps never exceeded 7 for any number in range 1-100
+- Binary search logic properly eliminates half the search space each iteration
+- User interface remains stable and error-free across all test scenarios
+- Game reset functionality works perfectly for consecutive plays
+- All button interactions behave as expected, including post-game states
 
 **Hugging Face Link:**  
 \[Your deployed app link will go here after deployment\]
