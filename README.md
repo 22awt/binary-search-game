@@ -29,7 +29,7 @@ I chose to implement binary search for this project because it is one of the mos
 
 **Abstraction**  
 \- The current guess number is displayed the remaining search range is shown clearly, a step counter tracks progress, and a visual grid shows which numbers are still possible  
-\- Internal calculations are kept behind the scenes, array indexing details and the specific formulas used in the algorithm are not displayed
+\- Internal calculations are kept behind the scenes, specific formulas used in the algorithm are not displayed
 
 **Algorithm Design**  
 \- **Input**: User thinks of a number and provides feedback through three buttons (Higher, Lower, Correct)
