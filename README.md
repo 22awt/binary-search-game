@@ -98,7 +98,7 @@ START
 
 1\. Clone the repository to your computer:  
 \`\`\`bash  
-   git clone \[https://github.com/22awt/binary-search-game/]  
+   git clone \[https://github.com/22awt/binary-search-game]  
    cd \[binary-search-game]  
 \`\`\`
 
