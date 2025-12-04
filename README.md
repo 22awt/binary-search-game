@@ -98,8 +98,8 @@ START
 
 1\. Clone the repository to your computer:  
 \`\`\`bash  
-   git clone \[your-repo-url\]  
-   cd \[your-repo-name\]  
+   git clone \[https://github.com/22awt/binary-search-game/]  
+   cd \[binary-search-game]  
 \`\`\`
 
 2\. Install the required Python packages:  
