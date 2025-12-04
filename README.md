@@ -134,17 +134,20 @@ Test Cases Performed:
 - Result: The algorithm found 100 in 7 steps as expected
 - The range expanded correctly toward the maximum value
 - Confirmed no overflow or boundary errors
+![Test 2](Test%202.PNG)
 
 **Test 3 - Best Case (Number: 50)**
 - Tested the exact middle of the range as the optimal scenario
 - Result: Found immediately in 1 step
 - Demonstrates the algorithm's first guess is strategically positioned at the midpoint
+![Test 3](Test%203.PNG)
 
 **Test 4 - Typical Case (Number: 63)**
 - Chose 63 to test a number requiring multiple iterations
 - Result: Found in 3 steps
 - Search sequence: 50 → 75 → 63
 - Shows efficient range narrowing in typical usage
+![Test 4](Test%204.PNG)
 
 **Test 5 - New Game Functionality**
 - Tested the reset button after completing multiple games
