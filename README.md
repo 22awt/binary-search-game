@@ -123,7 +123,7 @@ START
 
 **Playing the Game:**
 
-\- Click "Start New Game" to begin  
+\- Click "New Game" to begin  
 \- Think of any number between 1 and 100  
 \- The computer will make a guess  
 \- Click "Higher" if your number is higher than the guess  
