@@ -176,7 +176,7 @@ Test Cases Performed:
 ### Summary of Test Results
 
 **Total Tests Conducted**: 6  
-**Pass Rate**: 6/6 (100% ✅)
+**Pass Rate**: 6/6 (100%)
 
 **Performance Verification**:
 - Best case: 1 step (number 50)
